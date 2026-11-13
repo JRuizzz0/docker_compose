@@ -37,7 +37,7 @@ Porque Docker incorpora un DNS interno que resuelve el nombre del servicio
 cambiar, el nombre no.
 
 ### 8. ¿Qué diferencia existe entre detener un proyecto y eliminar sus volúmenes?
-`docker compose down` --> Elimina contenedores y redes, conserva los volúmenes: los datos siguen ahí. /n
+`docker compose down` --> Elimina contenedores y redes, conserva los volúmenes: los datos siguen ahí. <br>
 `docker compose down -v` --> Borra además los volúmenes: los datos persistentes se pierden de forma irreversible. 
 
 ### 9. ¿Qué consecuencias tendría para la empresa perder el volumen de PostgreSQL?
