@@ -1,6 +1,7 @@
 # Arquitectura Docker Compose: frontend, backend y PostgreSQL
 
 
+
 ## Preguntas y respuestas
 
 ### 1. ¿Por qué el frontend no necesita conectarse a PostgreSQL?
