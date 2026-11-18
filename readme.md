@@ -28,7 +28,7 @@ la resolución de nombres automáticamente, en lugar de lanzar tres `docker run`
 
 ### 6. ¿Por qué hemos dividido la arquitectura en dos redes?
 Para aislar. El frontend no puede
-alcanzar la base de datos aunque se vea comprometido; solo el backend tiene
+alcanzar la base de datos aunque se vea comprometido solo el backend tiene
 acceso a ella.
 
 ### 7. ¿Por qué el backend utiliza `db` como dirección de PostgreSQL?
